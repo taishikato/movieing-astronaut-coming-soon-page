@@ -6,6 +6,7 @@
       <h3 class="title is-3">
         <a href="https://www.facebook.com/MovieingAstronaut/" target="_blank"><i class="fab fa-facebook-square"></i></a>
         <a href="https://twitter.com/mvingastronaut" target="_blank"><i class="fab fa-twitter-square"></i></a>
+        <a href="https://github.com/taishikato/movieing-astronaut-coming-soon-page" target="_blank"><i class="fab fa-github-square"></i></a>
       </h3>
     </div>
     <vue-particles
