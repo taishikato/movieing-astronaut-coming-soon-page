@@ -43,7 +43,7 @@ html, body, #app {
 
 #app {
   position: relative;
-  background-image: url('https://res.cloudinary.com/guidesquare/image/upload/v1522334423/movieing-astronaut-bg_pfupzr.jpg');
+  background: url('https://res.cloudinary.com/guidesquare/image/upload/v1522334423/movieing-astronaut-bg_pfupzr.jpg') no-repeat center center;
   background-size: cover;
 }
 
