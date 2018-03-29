@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="main" class="has-text-centered">
-      <h1 class="title is-1">Movieing Astronaut 🚀👩‍🚀👨‍🚀🎥</h1>
+      <h1 class="title is-1">Movieing Astronaut 🚀👩‍🚀🎥👨‍🚀</h1>
       <h2 class="title is-2">Coming Soon!!</h2>
       <h3 class="title is-3">
         <a href="https://www.facebook.com/MovieingAstronaut/" target="_blank"><i class="fab fa-facebook-square"></i></a>
