@@ -1,4 +1,5 @@
 # Movieing Astronaut Coming Soon Page 🚀👩‍🚀👨‍🚀🎥
+[![CircleCI](https://circleci.com/gh/taishikato/movieing-astronaut-coming-soon-page/tree/master.svg?style=svg)](https://circleci.com/gh/taishikato/movieing-astronaut-coming-soon-page/tree/master)
 
 You can see it [here](http://movieing-astronaut-coming-soon.surge.sh/).
 
