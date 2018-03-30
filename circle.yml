@@ -6,7 +6,7 @@ dependencies:
   override:
     - yarn
   post:
-    - npm install -g npm@5 && yarn global add surge
+    - yarn global add surge
 test:
   override:
     - yarn test
