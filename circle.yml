@@ -12,4 +12,4 @@ deployment:
   production:
     branch: master
     commands:
-      - yarn build && surge --project ./dist --domain movieing-astronaut-coming-soon.surge.sh
+      - yarn global add surge && yarn build && surge --project ./dist --domain movieing-astronaut-coming-soon.surge.sh
