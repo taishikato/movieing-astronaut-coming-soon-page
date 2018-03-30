@@ -1,0 +1,5 @@
+deployment:
+  production:
+    branch: master
+    commands:
+      - npm run build && surge --project ./dist --domain movieing-astronaut-coming-soon.surge.sh
