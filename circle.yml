@@ -5,6 +5,8 @@ machine:
 dependencies:
   override:
     - yarn
+  post:
+    - npm install -g npm@5 && yarn global add surge
 test:
   override:
     - yarn test
@@ -12,4 +14,4 @@ deployment:
   production:
     branch: master
     commands:
-      - yarn global add surge && yarn build && surge --project ./dist --domain movieing-astronaut-coming-soon.surge.sh
+      - yarn build && surge --project ./dist --domain movieing-astronaut-coming-soon.surge.sh
