@@ -1,9 +1,15 @@
 machine:
   node:
-    version: 7.10
+    version: 8.5.0
   timezone: Asia/Tokyo
+dependencies:
+  override:
+    - yarn
+test:
+  override:
+    - yarn test
 deployment:
   production:
     branch: master
     commands:
-      - npm run build && surge --project ./dist --domain movieing-astronaut-coming-soon.surge.sh
+      - yarn build && surge --project ./dist --domain movieing-astronaut-coming-soon.surge.sh
